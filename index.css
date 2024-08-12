@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-image {
+  background-image: url('coming\ soon\ \(2\).png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.content {
+  z-index: 1;
+  max-width: 500px;
+}
+
+.logo {
+  width: 180px;
+  margin-top: -120px;
+  margin-bottom: 10px;
+}
+
+.notify-btn {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.notify-btn:hover {
+  background-color: #333;
+}
+
+.social-icons {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5em;
+}
+  
